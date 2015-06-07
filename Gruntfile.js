@@ -388,7 +388,6 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'uglify',
     'imagemin',
-    'svgmin',
     'filerev',
     'usemin',
     'htmlmin'
