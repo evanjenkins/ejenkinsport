@@ -1,6 +1,10 @@
 {
   "globals": {
-    "$": false
+    "$": false,
+    "ScrollMagic": false,
+    "TweenLite": false,
+    "eFunc": false,
+    "Chartist": false
   },
   "node": true,
   "browser": true,

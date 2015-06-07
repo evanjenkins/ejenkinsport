@@ -66,4 +66,4 @@ eFunc.createGraph = function() {
     //    window.__anim21278907124 = setTimeout(chart.update.bind(chart), 10000);
     //  });
   }
-}
+};
