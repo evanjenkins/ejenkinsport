@@ -334,7 +334,7 @@ module.exports = function (grunt) {
         'jekyll:server'
       ],
       dist: [
-        'compass:dist',
+        'compass:server',
         'svgstore',
         'copy:dist'
       ]
@@ -384,7 +384,7 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    //'cssmin',
+    'cssmin',
     'autoprefixer:dist',
     'uglify',
     'imagemin',
