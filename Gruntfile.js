@@ -390,7 +390,7 @@ module.exports = function (grunt) {
     'imagemin',
     'filerev',
     'usemin',
-    'htmlmin'
+    //'htmlmin'
     ]);
 
   grunt.registerTask('deploy', [
