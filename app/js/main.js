@@ -26,7 +26,7 @@ $(document).ready(function() {
   // Skills
   new ScrollMagic.Scene({
     triggerElement: '.skills',
-    triggerHook:.5,
+    triggerHook:0.5,
     duration: 300,
     reverse: false
   }).setTween([
@@ -36,7 +36,7 @@ $(document).ready(function() {
   // Skills graph
   new ScrollMagic.Scene({
     triggerElement: '.skills',
-    triggerHook:.3,
+    triggerHook:0.3,
     duration: 10,
     reverse: false
   }).on('enter', function(e) {
@@ -47,7 +47,7 @@ $(document).ready(function() {
   // History
   new ScrollMagic.Scene({
     triggerElement: '.history',
-    triggerHook:.5,
+    triggerHook:0.5,
     duration: 300,
     reverse: false
   }).setTween([
