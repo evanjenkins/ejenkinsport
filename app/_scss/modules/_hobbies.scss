@@ -1,0 +1,28 @@
+//////////////////////////////////////
+// Hobbies section
+/////////////////////////////////////
+.hobbies {
+
+}
+.hobbies--svg {
+  width: rem-calc(90);
+  height: rem-calc(90);
+  @media #{$medium-up} {
+    width: rem-calc(80);
+    height: rem-calc(80);
+  }
+  margin: 0 auto;
+  display: block;
+}
+.hobbies-tracker {
+  p {
+    margin: 0;
+  }
+}
+.hobbies-tracker--number {
+  font-family: $header-font-family;
+  font-size: $h2-font-size;
+  color: $white;
+  font-weight: bold;
+  line-height: 1;
+}

@@ -88,6 +88,16 @@ module.exports = function (grunt) {
         }
       }
     },
+    svgstore: {
+      options: {
+
+      },
+      default : {
+        files: {
+          '<%= yeoman.app %>/img/dest.svg': ['<%= yeoman.app %>/img/svg/*.svg'],
+        }
+      }
+    },
     clean: {
       dist: {
         files: [{
@@ -119,7 +129,7 @@ module.exports = function (grunt) {
         httpGeneratedImagesPath: '/images/generated',
         outputStyle: 'expanded',
         raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n',
-        importPath: ['<%= yeoman.app %>/_bower_components/foundation/scss', '<%= yeoman.app %>/_bower_components/fontawesome/scss'],
+        importPath: ['<%= yeoman.app %>/_bower_components/foundation/scss', '<%= yeoman.app %>/_bower_components/fontawesome/scss', '<%= yeoman.app %>/_bower_components/chartist/dist/scss'],
       },
       dist: {
         options: {
@@ -319,11 +329,13 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'compass:server',
+        'svgstore',
         'copy:stageCss',
         'jekyll:server'
       ],
       dist: [
         'compass:dist',
+        'svgstore',
         'copy:dist'
       ]
     }

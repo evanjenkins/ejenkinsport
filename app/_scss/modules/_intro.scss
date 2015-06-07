@@ -1,0 +1,48 @@
+////////////////
+// Intro
+///////////////
+.home {
+  height: 100vh;
+  overflow: hidden;
+  h6 {
+    font-weight: 300;
+    text-indent: 2px;
+    letter-spacing: 5px;
+  }
+}
+.evan-intro {
+  @media #{$small-only} {
+    min-height: 50vh;
+  }
+}
+$heading-size: rem-calc(75);
+.page-heading {
+  line-height: 1;
+  margin:0 0 -10px 0;
+  font-size: $heading-size;
+  @media #{$small-only} {
+    font-size: $h1-font-size;
+  }
+  img {
+    height: rem-calc(62);
+    @media #{$small-only} {
+      font-size: $h1-font-size;
+      clear:both;
+      display: block;
+      margin-bottom: rem-calc(15);
+    }
+  }
+}
+.evan-image {
+  background-size: cover;
+}
+.evan-image--small {
+  background-size: cover;
+  height: 50vh;
+}
+.top-gradient {
+  width: 100%;
+  height: rem-calc(3);
+  background-color: #312d2f; // layer fill content
+  @include background-image(linear-gradient(left, #27c5d7 0%, #26a1cf 32.84%, #26cea5 68.92%, #26ce59 99.49%, #26ce59 100%)); // gradient overlay
+}

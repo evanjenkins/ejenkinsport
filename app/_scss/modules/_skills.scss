@@ -1,0 +1,40 @@
+/////////////////////////////
+// Skills section
+////////////////////////////
+.skills {
+  background: url(../img/gradient-bg.svg);
+  background-size: cover;
+  .ct-chart {
+    height: 30vh;
+    overflow: hidden;
+    svg {
+      height: 500px !important;
+      margin-top: rem-calc(-20);
+    }
+  }
+}
+
+.skills--svg {
+  li {
+    text-align: center;
+    padding-bottom: 0;
+  }
+  svg {
+    width: rem-calc(125);
+    @media #{$small-only} {
+      width: rem-calc(80);
+    }
+  }
+}
+.inner-panel {
+  background-color: $body-bg;
+  padding: rem-calc(30);
+}
+
+.ct-chart-wrapper {
+  p {
+    position: absolute;
+    bottom: 10%;
+    @include center('x');
+  }
+}

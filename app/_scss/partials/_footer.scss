@@ -1,0 +1,14 @@
+///////////////////////////
+// Footer
+//////////////////////////
+.contact-me--title {
+  @media #{$medium-up} {
+    padding-top: rem-calc(20);
+    text-align: right;
+  }
+}
+.contact-me--info {
+  @media #{$medium-up} {
+    border-left: 1px solid $secondary-color;
+  }
+}

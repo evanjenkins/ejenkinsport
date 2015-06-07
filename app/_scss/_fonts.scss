@@ -1,0 +1,61 @@
+//////////////////
+// Fonts
+/////////////////
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700);
+$font-path: "../fonts/";
+font-face {
+  font-family: 'bebas';
+  src: url('#{$font-path}bebasneue_regular-webfont.eot');
+  src: url('#{$font-path}bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}bebasneue_regular-webfont.woff2') format('woff2'),
+  url('#{$font-path}bebasneue_regular-webfont.woff') format('woff'),
+  url('#{$font-path}bebasneue_regular-webfont.ttf') format('truetype'),
+  url('#{$font-path}bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'bebas';
+  src: url('#{$font-path}bebasneue_light-webfont.eot');
+  src: url('#{$font-path}bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}bebasneue_light-webfont.woff2') format('woff2'),
+  url('#{$font-path}bebasneue_light-webfont.woff') format('woff'),
+  url('#{$font-path}bebasneue_light-webfont.ttf') format('truetype'),
+  url('#{$font-path}bebasneue_light-webfont.svg#bebas_neuelight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'bebas';
+  src: url('#{$font-path}bebasneue_bold-webfont.eot');
+  src: url('#{$font-path}bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}bebasneue_bold-webfont.woff2') format('woff2'),
+  url('#{$font-path}bebasneue_bold-webfont.woff') format('woff'),
+  url('#{$font-path}bebasneue_bold-webfont.ttf') format('truetype'),
+  url('#{$font-path}bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bebas';
+  src: url('#{$font-path}bebasneue_thin-webfont.eot');
+  src: url('#{$font-path}bebasneue_thin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}bebasneue_thin-webfont.woff2') format('woff2'),
+  url('#{$font-path}bebasneue_thin-webfont.woff') format('woff'),
+  url('#{$font-path}bebasneue_thin-webfont.ttf') format('truetype'),
+  url('#{$font-path}bebasneue_thin-webfont.svg#bebas_neuethin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+
+}

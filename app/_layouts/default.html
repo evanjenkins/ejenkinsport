@@ -13,35 +13,50 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
         <!-- endbuild -->
-
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+      <!-- build:js(app) /js/req-scripts.js -->
+      <script src="/_bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="/_bower_components/foundation/js/foundation.js"></script>
+      <script src="/_bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+      <script src="/_bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+      <script src="/_bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+      <script src="/_bower_components/svg4everybody/svg4everybody.ie8.min.js"></script>
+      <script src="/_bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+      <script src="/_bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+      <!-- endbuild -->
     </head>
     <body>
-
+      <div class="top-gradient"></div>
         <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+          <div id="fullpage">
+            {{ content }}
           </div>
 
-          {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Evan Jenkins<br />
-                <a href="mailto:evanjenkins11@yahoo.com">evanjenkins11@yahoo.com</a>
-              </p>
+
+
+
+          <footer class="contact-me page-section">
+            <div class="row">
+              <div class="contact-me--title medium-3 medium-offset-3 columns">
+                <h3>Contact</h3>
+              </div>
+              <div class="contact-me--info medium-3 columns end">
+                <h6>Evan Jenkins</h6>
+                <p>
+                  <a href="mailto:evanjenkins11@yahoo.com">evanjenkins11@yahoo.com</a>
+                  <a href="https://github.com/evanjenkins">github.com/evanjenkins</a><br />
+                  <a href="https://twitter.com/evan_wade">twitter.com/evan_wade</a><br />
+                </p>
+              </div>
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+          </footer>
         </div>
 
     <!-- build:js(app) /js/scripts.js -->
+    <script src="/_bower_components/chartist/dist/chartist.min.js"></script>
+    <script src="/_bower_components/fullpage.js/jquery.fullPage.min.js"></script>
+    <script src="/js/spec-functions.js"></script>
     <script src="/js/main.js"></script>
     <!-- endbuild -->
     </body>

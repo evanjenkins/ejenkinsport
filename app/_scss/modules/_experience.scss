@@ -1,0 +1,19 @@
+/////////////////////////////
+// Experience section
+/////////////////////////////
+.history {
+  background-color: $white;
+}
+.history-timeline {
+  margin: 0;
+  li {
+    background: transparent url(../img/timeline.svg) no-repeat top left;
+    padding: rem-calc(0 0 20 20);
+    &:last-child {
+      background: transparent url(../img/timeline-last.svg) no-repeat top left;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

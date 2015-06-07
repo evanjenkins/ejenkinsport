@@ -1,0 +1,15 @@
+/////////////////////////////////
+// Elements specifics/overrides
+////////////////////////////////
+hr {
+  border-top-color: $primary-color;
+}
+
+.colorful-separator {
+  height: rem-calc(50);
+  background: url(../img/gradient-bg.svg);
+  background-size: cover;
+  @media #{$medium-up} {
+    height: rem-calc(100);
+  }
+}

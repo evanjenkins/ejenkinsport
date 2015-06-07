@@ -16,11 +16,20 @@
 ////////////////////////
 // Base Import
 ////////////////////////
-//@import 'partials/mixins/center';
-//@import 'partials/global/base';
-//@import 'partials/global/typography';
-//@import 'partials/global/buttons';
-//@import 'partials/global/layouts';
-//@import 'partials/global/svg-mods';
-//@import 'partials/global/parallax';
-//@import 'partials/global/fullpage';
+@import 'fonts';
+@import "partials/fullpage";
+@import "partials/helpers";
+@import "partials/typography";
+@import "partials/elements";
+@import "partials/sections";
+@import "partials/footer";
+
+// Chartist
+@import "chartist-settings";
+@import "chartist.scss";
+
+@import 'modules/intro';
+@import 'modules/skills';
+@import 'modules/experience';
+@import 'modules/currently';
+@import 'modules/hobbies';
