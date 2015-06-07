@@ -1,4 +1,4 @@
-eFunc = eFunc || {};
+var eFunc = eFunc || {};
 
 eFunc.createGraph = function() {
   // Chart
