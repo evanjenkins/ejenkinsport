@@ -1,3 +1,5 @@
+var eFunc = eFunc || {};
+
 $(document).ready(function() {
   $(document).foundation({
     equalizer: {
