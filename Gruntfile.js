@@ -384,13 +384,13 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'cssmin',
+    //'cssmin',
     'autoprefixer:dist',
     'uglify',
     'imagemin',
     'filerev',
     'usemin',
-    //'htmlmin'
+    'htmlmin'
     ]);
 
   grunt.registerTask('deploy', [
