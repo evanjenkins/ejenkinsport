@@ -52,7 +52,7 @@ $(document).ready(function() {
     reverse: false
   }).setTween([
       TweenLite.fromTo($('.history-timeline li:first-child'),5,{y:200,opacity:0},{y:0,opacity:1}),
-      TweenLite.fromTo($('.history-timeline li:nth-child(2)'),5,{y:200,opacity:0},{y:0,opacity:1,delay:.5}),
+      TweenLite.fromTo($('.history-timeline li:nth-child(2)'),5,{y:200,opacity:0},{y:0,opacity:1,delay:0.5}),
       TweenLite.fromTo($('.history-timeline li:nth-child(3)'),5,{y:200,opacity:0},{y:0,opacity:1,delay:1}),
       TweenLite.fromTo($('.history-timeline li:nth-child(4)'),5,{y:200,opacity:0},{y:0,opacity:1,delay:1.5}),
     ]).addTo(fpController);
