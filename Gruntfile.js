@@ -265,8 +265,8 @@ module.exports = function (grunt) {
             '_bower_components/foundation/js/foundation/foundation.equalizer.js',
             '_bower_components/svg4everybody/svg4everybody.ie8.min.js',
             '_bower_components/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
-            '_bower_components/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js'
-            //'favicon.ico',
+            '_bower_components/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js',
+            'favicon.ico'
             //'apple-touch*.png'
           ],
           dest: '<%= yeoman.dist %>'
