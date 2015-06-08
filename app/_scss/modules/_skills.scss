@@ -21,6 +21,9 @@
   }
   svg {
     width: rem-calc(125);
+    @media #{$medium-only} {
+      width: rem-calc(90);
+    }
     @media #{$small-only} {
       width: rem-calc(80);
     }
