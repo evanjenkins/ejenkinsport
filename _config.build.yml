@@ -2,6 +2,6 @@
 # 1. Gruntfile task
 # 2. config.build.yml
 # 3. config.yml
-
+baseurl: /ejenkinsport
 future: false
 show_drafts: false
