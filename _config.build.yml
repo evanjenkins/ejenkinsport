@@ -4,3 +4,4 @@
 # 3. config.yml
 future: false
 show_drafts: false
+baseurl: /ejenkinsport

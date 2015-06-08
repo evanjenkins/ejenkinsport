@@ -164,7 +164,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           dest: '<%= yeoman.dist %>',
-          config: '_config.yml'
+          config: '_config.yml,_config.build.yml'
         }
       },
       server: {
