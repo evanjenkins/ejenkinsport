@@ -5,7 +5,7 @@
 
 name: evanjenkins-port
 description: Evan Jenkins Front-End Developer
-
+baseurl: /ejenkinsport
 author:
   name: Evan Jenkins
   email: evanjenkins11@yahoo.com
