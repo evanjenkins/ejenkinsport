@@ -218,6 +218,15 @@ module.exports = function (grunt) {
         options: {
           check: 'gzip'
         }
+      },
+      target: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.dist %>',
+          src: ['*.css', '!*.min.css'],
+          dest: 'css',
+          ext: '.min.css'
+        }]
       }
     },
     imagemin: {
