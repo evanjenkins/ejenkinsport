@@ -133,17 +133,15 @@ module.exports = function (grunt) {
       },
       dist: {
         options: {
-          generatedImagesDir: '<%= yeoman.dist %>/img/generated',
-          sassDir: '<%= yeoman.app %>/_scss',
-          cssDir: '<%= yeoman.app %>/css',
-          raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n',
-          importPath: ['<%= yeoman.app %>/_bower_components/foundation/scss', '<%= yeoman.app %>/_bower_components/fontawesome/scss', '<%= yeoman.app %>/_bower_components/chartist/dist/scss'],
+          generatedImagesDir: '<%= yeoman.dist %>/img',
+          sassDir: '_scss',
+          cssDir: 'css'
         }
       },
       server: {
         options: {
           debugInfo: true,
-          generatedImagesDir: '.tmp/img/generated'
+          generatedImagesDir: '.tmp/img'
         }
       }
     },
