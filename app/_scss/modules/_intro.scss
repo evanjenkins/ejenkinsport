@@ -11,6 +11,9 @@
   }
 }
 .evan-intro {
+  @media #{$medium-only} {
+    min-height: 50vh !important;
+  }
   @media #{$small-only} {
     min-height: 50vh;
   }
@@ -39,6 +42,7 @@ $heading-size: rem-calc(75);
 .evan-image--small {
   background-size: cover;
   height: 50vh;
+  background-position: center;
 }
 .top-gradient {
   width: 100%;
